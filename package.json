@@ -1,0 +1,20 @@
+{
+  "name": "react-fetch-suspense-ssr-demo",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "razzle start",
+    "build": "razzle build",
+    "test": "razzle test --env=jsdom",
+    "start:prod": "NODE_ENV=production node build/server.js"
+  },
+  "dependencies": {
+    "deep-equal": "^1.0.1",
+    "express": "4.17.1",
+    "isomorphic-fetch": "^2.2.1",
+    "razzle": "3.0.0",
+    "react": "^16.9.0",
+    "react-dom": "16.9.0",
+    "react-lightyear": "^0.2.3",
+    "react-router-dom": "5.0.1"
+  }
+}
