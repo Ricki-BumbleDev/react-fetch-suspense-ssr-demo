@@ -1,6 +1,7 @@
 {
-  "name": "react-fetch-suspense-ssr-demo",
+  "name": "my-razzle-app",
   "version": "0.1.0",
+  "license": "MIT",
   "scripts": {
     "start": "razzle start",
     "build": "razzle build",
@@ -8,13 +9,24 @@
     "start:prod": "NODE_ENV=production node build/server.js"
   },
   "dependencies": {
-    "deep-equal": "^1.0.1",
     "express": "4.17.1",
     "isomorphic-fetch": "^2.2.1",
-    "razzle": "3.0.0",
-    "react": "^16.9.0",
-    "react-dom": "16.9.0",
-    "react-lightyear": "^0.2.3",
-    "react-router-dom": "5.0.1"
+    "razzle": "3.1.3",
+    "razzle-plugin-typescript": "^3.1.3",
+    "react": "^16.13.1",
+    "react-dom": "16.13.1",
+    "react-lightyear": "^16.10.0",
+    "react-router-dom": "5.2.0",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/isomorphic-fetch": "0.0.35",
+    "@types/react": "^16.9.36",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/webpack-env": "^1.15.2",
+    "eslint": "^7.2.0",
+    "tslint": "^6.1.2"
   }
 }
